@@ -1,7 +1,6 @@
 module world;
 import bindbc.sdl;
 import globals;
-import core.stdc.string : memcpy;
 
 enum CollisionMask : ubyte
 {
@@ -30,6 +29,8 @@ struct World
 	
 	void draw()
 	{
+		import core.stdc.string : memcpy;
+		
 		for (uint i = 0; i < renderBuffer.length; i++)
 		{
 			renderBuffer[i] = pixelColors[pixels[i]];
