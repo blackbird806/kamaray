@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/kamaray
+kamaray.so
+kamaray.dylib
+kamaray.dll
+kamaray.a
+kamaray.lib
+kamaray-test-*
+*.exe
+*.o
+*.obj
+*.lst
+*.dll

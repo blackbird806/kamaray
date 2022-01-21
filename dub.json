@@ -1,0 +1,17 @@
+{
+	"authors": [
+		"Blackbird"
+	],
+	"copyright": "Copyright © 2022, Blackbird",
+	"dependencies": {
+		"bindbc-sdl": "~>1.0.1"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "kamaray",
+	"versions": [
+		"SDL_2014",
+		"USE_GL",
+		"USE_SDL2"
+	]
+}
